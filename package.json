@@ -1,0 +1,37 @@
+{
+  "private": true,
+  "author": "Jeff Tian <jeff.tian@outlook.com>",
+  "scripts": {
+    "build": "max build",
+    "dev": "max dev",
+    "format": "prettier --cache --write .",
+    "postinstall": "max setup",
+    "prepare": "husky install",
+    "setup": "max setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "@ant-design/pro-components": "^2.6.31",
+    "@ckeditor/ckeditor5-basic-styles": "^39.0.1",
+    "@ckeditor/ckeditor5-dev-utils": "^38.3.1",
+    "@ckeditor/ckeditor5-dev-webpack-plugin": "^31.1.0",
+    "@ckeditor/ckeditor5-editor-classic": "^39.0.1",
+    "@ckeditor/ckeditor5-essentials": "^39.0.1",
+    "@ckeditor/ckeditor5-paragraph": "^39.0.1",
+    "@ckeditor/ckeditor5-react": "^6.1.0",
+    "@ckeditor/ckeditor5-theme-lark": "^39.0.1",
+    "@umijs/max": "^4.0.87",
+    "antd": "^5.10.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.31",
+    "@types/react-dom": "^18.2.14",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.0.2",
+    "prettier": "^3.0.3",
+    "prettier-plugin-organize-imports": "^3.2.3",
+    "prettier-plugin-packagejson": "^2.4.6",
+    "typescript": "^5.2.2"
+  }
+}
