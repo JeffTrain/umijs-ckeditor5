@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    name: Build
+    name: Build and Deploy to gh-pages
     environment: Production
     runs-on: macos-latest
     steps:
